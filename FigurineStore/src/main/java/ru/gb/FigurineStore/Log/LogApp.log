@@ -1,0 +1,213 @@
+2024-05-24T09:45:43.804+03:00  INFO 7852 --- [FigurineStore] [main] r.g.F.FigurineStoreApplication           : Starting FigurineStoreApplication using Java 21.0.1 with PID 7852 (D:\GeekBrains\Spring\StoreWOW2\FigurineStore\target\classes started by Андрей in D:\GeekBrains\Spring\StoreWOW2\FigurineStore)
+2024-05-24T09:45:43.821+03:00  INFO 7852 --- [FigurineStore] [main] r.g.F.FigurineStoreApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T09:45:44.925+03:00  INFO 7852 --- [FigurineStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-24T09:45:45.151+03:00  INFO 7852 --- [FigurineStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 3 JPA repository interfaces.
+2024-05-24T09:45:45.596+03:00  INFO 7852 --- [FigurineStore] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f2e63ad8-c177-371f-b1e7-78e1dd3474c6
+2024-05-24T09:45:46.081+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-05-24T09:45:46.084+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.086+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.095+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.099+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.100+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x000002de8142cc58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.103+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.115+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.123+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.125+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.127+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.129+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.135+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.163+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.165+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.167+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.170+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.173+03:00  WARN 7852 --- [FigurineStore] [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-05-24T09:45:46.524+03:00  INFO 7852 --- [FigurineStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T09:45:46.541+03:00  INFO 7852 --- [FigurineStore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T09:45:46.541+03:00  INFO 7852 --- [FigurineStore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T09:45:46.654+03:00  INFO 7852 --- [FigurineStore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T09:45:46.654+03:00  INFO 7852 --- [FigurineStore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2779 ms
+2024-05-24T09:45:46.911+03:00  INFO 7852 --- [FigurineStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-24T09:45:47.290+03:00  INFO 7852 --- [FigurineStore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:mydb user=SA
+2024-05-24T09:45:47.292+03:00  INFO 7852 --- [FigurineStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-24T09:45:47.379+03:00  INFO 7852 --- [FigurineStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-24T09:45:47.543+03:00  INFO 7852 --- [FigurineStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-24T09:45:47.617+03:00  INFO 7852 --- [FigurineStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-24T09:45:48.145+03:00  INFO 7852 --- [FigurineStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-24T09:45:48.248+03:00  WARN 7852 --- [FigurineStore] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-24T09:45:49.420+03:00  INFO 7852 --- [FigurineStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-24T09:45:49.483+03:00  INFO 7852 --- [FigurineStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24T09:45:50.082+03:00  INFO 7852 --- [FigurineStore] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-24T09:45:50.279+03:00  WARN 7852 --- [FigurineStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-24T09:45:50.852+03:00  INFO 7852 --- [FigurineStore] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50165a6d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ec921f1, org.springframework.security.web.context.SecurityContextHolderFilter@6e95c023, org.springframework.security.web.header.HeaderWriterFilter@3dbcde0b, org.springframework.web.filter.CorsFilter@172ca6a, org.springframework.security.web.authentication.logout.LogoutFilter@63ead376, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@326489c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d00241b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@365fde74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@174e5929, org.springframework.security.web.access.ExceptionTranslationFilter@73624529, org.springframework.security.web.access.intercept.AuthorizationFilter@4ac2b4c6]
+2024-05-24T09:45:51.354+03:00  INFO 7852 --- [FigurineStore] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-05-24T09:45:51.413+03:00  WARN 7852 --- [FigurineStore] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-05-24T09:45:51.452+03:00  INFO 7852 --- [FigurineStore] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-05-24T09:45:51.613+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-05-24T09:45:51.629+03:00  INFO 7852 --- [FigurineStore] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-05-24T09:45:51.655+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-05-24T09:45:51.656+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-05-24T09:45:52.096+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-05-24T09:45:52.099+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-05-24T09:45:52.102+03:00  INFO 7852 --- [FigurineStore] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-05-24T09:45:52.108+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1716533152107 with initial instances count: 1
+2024-05-24T09:45:52.114+03:00  INFO 7852 --- [FigurineStore] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FIGURINESTORE with eureka with status UP
+2024-05-24T09:45:52.114+03:00  INFO 7852 --- [FigurineStore] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716533152114, current=UP, previous=STARTING]
+2024-05-24T09:45:52.116+03:00  INFO 7852 --- [FigurineStore] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FIGURINESTORE/DESKTOP-LLQQBK4:FigurineStore:8080: registering service...
+2024-05-24T09:45:52.138+03:00  INFO 7852 --- [FigurineStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T09:45:52.140+03:00  INFO 7852 --- [FigurineStore] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2024-05-24T09:45:52.156+03:00  INFO 7852 --- [FigurineStore] [main] r.g.F.FigurineStoreApplication           : Started FigurineStoreApplication in 8.998 seconds (process running for 9.662)
+2024-05-24T09:45:52.170+03:00  INFO 7852 --- [FigurineStore] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FIGURINESTORE/DESKTOP-LLQQBK4:FigurineStore:8080 - registration status: 204
+2024-05-24T09:46:14.594+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T09:46:14.595+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T09:46:14.596+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T09:46:19.520+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getProductById
+Параметры: [2]
+Время (мс): 18
+--------------------------------------------
+2024-05-24T09:46:23.371+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-1] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getPageById
+Параметры: [2]
+Время (мс): 3
+--------------------------------------------
+2024-05-24T09:46:25.458+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: anonymousUser
+Метод: getProductById
+Параметры: [14]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:46:49.257+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-4] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 2
+--------------------------------------------
+2024-05-24T09:46:51.370+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-6] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:46:54.466+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 2
+--------------------------------------------
+2024-05-24T09:46:56.031+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getPageById
+Параметры: [1, 1]
+Время (мс): 15
+--------------------------------------------
+2024-05-24T09:46:56.034+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [2]
+Время (мс): 2
+--------------------------------------------
+2024-05-24T09:47:16.131+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-3] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getPageById
+Параметры: [2]
+Время (мс): 4
+--------------------------------------------
+2024-05-24T09:47:16.182+03:00  WARN 7852 --- [FigurineStore] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "kfjkhl"]
+2024-05-24T09:47:17.336+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-6] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [15]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:17.363+03:00  WARN 7852 --- [FigurineStore] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "kfjkhl"]
+2024-05-24T09:47:18.880+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-9] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: admin
+Метод: getProductById
+Параметры: [15]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:29.110+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-4] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:30.166+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-7] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:32.783+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-5] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getPageById
+Параметры: [1, 2]
+Время (мс): 2
+--------------------------------------------
+2024-05-24T09:47:32.784+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-5] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [2]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:34.813+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-10] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:36.108+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-1] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:52.557+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-8] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user2
+Метод: getProductById
+Параметры: [3]
+Время (мс): 1
+--------------------------------------------
+2024-05-24T09:47:53.948+03:00  INFO 7852 --- [FigurineStore] [http-nio-8080-exec-9] r.g.F.aspect.TrackUserActionAspect       : 
+--------------------------------------------
+Пользователь: user2
+Метод: getProductById
+Параметры: [3]
+Время (мс): 0
+--------------------------------------------
+2024-05-24T09:48:28.135+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FIGURINESTORE with eureka with status DOWN
+2024-05-24T09:48:28.136+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716533308136, current=DOWN, previous=UP]
+2024-05-24T09:48:28.136+03:00  INFO 7852 --- [FigurineStore] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FIGURINESTORE/DESKTOP-LLQQBK4:FigurineStore:8080: registering service...
+2024-05-24T09:48:28.146+03:00  INFO 7852 --- [FigurineStore] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FIGURINESTORE/DESKTOP-LLQQBK4:FigurineStore:8080 - registration status: 204
+2024-05-24T09:48:28.150+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24T09:48:28.156+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-24T09:48:28.158+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-24T09:48:28.159+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-05-24T09:48:31.162+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-05-24T09:48:31.170+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FIGURINESTORE/DESKTOP-LLQQBK4:FigurineStore:8080 - deregister  status: 200
+2024-05-24T09:48:31.175+03:00  INFO 7852 --- [FigurineStore] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
