@@ -15,6 +15,11 @@ user - количество денег 3000<br>
 admin - login: admin; password: password<br>
 user - login: user; password: password
 
+# EurekaServer
+Проект для регистрации микросервисов
+# Gateway
+Проект по маршрутизации.
+
 <hr>
 
 ## Как пользоваться
